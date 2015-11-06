@@ -1,0 +1,30 @@
+.hero {
+    width: 100%;
+    min-height: 350px;
+    background-position: center center;
+
+}
+
+/*
+html{
+  background-image: 'sky.jpg';
+}*/
+h1 {
+  font-style: bold;
+  color: white;
+}
+
+h3 {
+  font-style: bold;
+  color: white;
+}
+
+span {
+  font-style: bold;
+  color: white;
+}
+
+#switching {
+  color: white;
+  background-color: green;
+}

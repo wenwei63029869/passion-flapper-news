@@ -26,6 +26,10 @@ app.controller('MainCtrl', [
       var index = $scope.posts.indexOf(post);
       $scope.posts.splice(index, 1);
     };
+    $scope.image = {
+        background: 'url(green.jpg)',
+
+    };
 
 }]);
 
@@ -47,6 +51,10 @@ function($scope, $stateParams, posts){
   $scope.incrementUpvotes=function(comment) {
       comment.upvotes += 1;
     };
+  $scope.image = {
+      background: 'url(green.jpg)',
+
+  };
 }]);
 
 app.factory('posts', [function(){
